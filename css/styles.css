@@ -186,7 +186,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office\ 1.jpg);
+    url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -339,7 +339,6 @@ address {
   display: flex;
   gap: 24px;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-link {
@@ -351,6 +350,7 @@ address {
   fill: #f4f4fd;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-icon {
 }
@@ -378,6 +378,7 @@ address {
 
 .portfolio-item {
   background-color: #fff;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-image {
@@ -415,7 +416,7 @@ address {
 }
 
 .portfolio-item:hover .portfolio-paragraph-hide {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0%);
 }
 
 .portfolio-img-hide {
