@@ -321,6 +321,7 @@ address {
 .team-soc-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .team-soc-link {
@@ -338,6 +339,10 @@ address {
 .team-soc-item {
   width: 40px;
   height: 40px;
+}
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #31d0aa;
 }
 
 /*================================= PORTFOLIO (section 4) ===================================*/
