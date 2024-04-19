@@ -440,6 +440,11 @@ address {
 .footer-container-two {
 }
 
+.container-flex {
+  display: flex;
+  align-items: baseline;
+}
+
 .soc-text {
   font-weight: 500;
   font-size: 16px;
@@ -451,7 +456,7 @@ address {
 
 .soc-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 .soc-item {
   width: 40px;
@@ -471,6 +476,7 @@ address {
   fill: #f4f4fd;
 }
 
-.soc-link:hover {
+.soc-link:hover,
+.soc-link:focus {
   background-color: #31d0aa;
 }
