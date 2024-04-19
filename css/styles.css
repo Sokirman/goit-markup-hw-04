@@ -137,6 +137,7 @@ address {
 
 .address-item {
 }
+
 .address-link {
   font-weight: 400;
   font-size: 16px;
@@ -150,9 +151,11 @@ address {
   color: #404bbf;
 }
 
-.studio::before {
+.studio::after {
   content: "";
+  width: 100%;
   position: absolute;
+  left: 0;
   bottom: -1px;
   border-radius: 2px;
   width: 48px;
